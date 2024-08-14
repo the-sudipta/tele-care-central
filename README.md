@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 <a href="#">
-<img src="https://raw.githubusercontent.com/the-sudipta/mobile-banking-management-system/main/DOCUMENTATIONS/images/Mobile%20Banking%20Management%20System.png" alt="Logo" width="100" height="100">
+<img src="https://raw.githubusercontent.com/the-sudipta/tele-care-central/main/DOCUMENTATIONS/images/Tele%20Care%20Central%20Logo.png" alt="Logo" width="400" height="100">
 </a>
 <h3 align="center">Mobile Banking Management System</h3>
 
@@ -23,21 +23,25 @@
 An online banking system backend through email like bKash
 <br/>
 <p align="center">
-  <a href="https://github.com/the-sudipta/mobile-banking-management-system/raw/main/DOCUMENTATIONS/Project_Manual_mobile-banking-management-system.pdf" download>📱 Explore the docs »</a>
+  <a href="https://github.com/the-sudipta/tele-care-central/raw/main/DOCUMENTATIONS/Project_Manual_tele-care-central.pdf" download>📱 Explore the docs »</a>
 </p>
 </div>
 <div align="left">
 
 ## :star2: About The Project
 
-   ![Product Video Gif](https://github.com/the-sudipta/mobile-banking-management-system/blob/main/DOCUMENTATIONS/images/Mobile%20Banking%20Management%20System%20Backend%20Demo.gif?raw=true)
-   
-   The Mobile Banking Management System project is designed to streamline banking operations through mobile
-   devices, enabling users to conduct tasks like fund transfers, bill payments, and account inquiries from
-   their smartphones or tablets. This project aims to enhance accessibility, efficiency, and security in
-   banking services, addressing the challenges of robust security measures, compatibility across various
-   mobile platforms, scalability for a growing user base, and compliance with regulatory and legal
-   requirements, ensuring a seamless and secure user experience in the modern digital age.
+   ![Product Video Gif](https://github.com/the-sudipta/tele-care-central/blob/main/DOCUMENTATIONS/images/Mobile%20Banking%20Management%20System%20Backend%20Demo.gif?raw=true)
+
+<p style="text-align: justify;">
+The Hospital Management System project is designed to facilitate seamless healthcare operations online by 
+enabling users to manage essential tasks such as user registration, profile management, appointment 
+scheduling, and medical records handling. This project enhances the efficiency, accessibility, and 
+security of hospital services by incorporating features like secure login, OTP authentication, and 
+comprehensive medical lab record management. It also addresses critical aspects such as payment processing, 
+feedback collection, and user profile updates, ensuring a user-friendly and secure environment for managing 
+hospital services in the digital age.
+</p>
+
    
    
    ### :hammer: Tech Stack / Built With
@@ -118,46 +122,45 @@ An online banking system backend through email like bKash
 </div>
    <div align="center">
      <table>
-       <tr>
-         <th colspan="2">Customer Features</th>
-       </tr>
-       <tr>
-         <td>Sign up</td>
-         <td>Sign in</td>
-       </tr>
-       <tr>
-         <td>Sign out</td>
-         <td>Create Customer Details</td>
-       </tr>
-       <tr>
-         <td>View Profile Details</td>
-         <td>Upload/Change Profile Picture</td>
-       </tr>
-       <tr>
-         <td>View Profile Picture</td>
-         <td>Cash out</td>
-       </tr>
-       <tr>
-         <td>Cash in</td>
-         <td>Bank to bKash</td>
-       </tr>
-       <tr>
-         <td>bKash to Bank</td>
-         <td>Change password</td>
-       </tr>
-       <tr>
-         <td>Change profile details</td>
-         <td>Bill payment</td>
-       </tr>
-       <tr>
-         <td>View payment list</td>
-         <td>Loan from bKash</td>
-       </tr>
-       <tr>
-         <td>Send money</td>
-         <td>bKash to card</td>
-       </tr>
-     </table>
+  <tr>
+    <th colspan="2">Patient Features</th>
+  </tr>
+  <tr>
+    <td>Signup</td>
+    <td>View own profile</td>
+  </tr>
+  <tr>
+    <td>Edit own details</td>
+    <td>Book Appointment</td>
+  </tr>
+  <tr>
+    <td>View Upcoming Appointment</td>
+    <td>Update Appointment Details</td>
+  </tr>
+  <tr>
+    <td>View Medical Lab Record List</td>
+    <td>Update single medical lab report</td>
+  </tr>
+  <tr>
+    <td>Upload profile picture</td>
+    <td>Create Billing or Payment</td>
+  </tr>
+  <tr>
+    <td>Create Feedback</td>
+    <td>Auto Generated OTP</td>
+  </tr>
+  <tr>
+    <td>Send OTP through Email</td>
+    <td>Login</td>
+  </tr>
+  <tr>
+    <td>Forget Password</td>
+    <td>Create new password</td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">Logout</td>
+  </tr>
+</table>
    </div>
 
 
@@ -169,13 +172,11 @@ An online banking system backend through email like bKash
    ### Database Variables
     
    ```yaml
-   DATABASE_URL: "postgresql://postgres:qWKzRVBvImHaoGJZhtZwfmoZzjZkwDKf@roundhouse.proxy.rlwy.net:21821/railway"
    PGDATABASE: "railway"
    PGHOST: "roundhouse.proxy.rlwy.net"
-   PGPASSWORD: "qWKzRVBvImHaoGJZhtZwfmoZzjZkwDKf"
-   PGPORT: 21821
+   PGPASSWORD: "gCBtpUkGGYfFPQsEVZicTKtLziAbSkjZ"
+   PGPORT: 52395
    PGUSER: "postgres"
-   
    ```
    
    ## :toolbox: Getting Started
@@ -218,12 +219,12 @@ An online banking system backend through email like bKash
    #### Download the project
    
    ```bash
-   https://github.com/the-sudipta/mobile-banking-management-system.git
+   https://github.com/the-sudipta/tele-care-central.git
    ```
    
    #### Clone the Repository
    ```bash
-   git https://github.com/the-sudipta/mobile-banking-management-system.git
+   git clone https://github.com/the-sudipta/tele-care-central.git
    ```
    
    ## :pushpin: API Endpoints
@@ -232,11 +233,15 @@ An online banking system backend through email like bKash
    **RESPONSE Example in Documentations**
    ```json
    {
-     "name": "Suchona Saha",
-     "age": 22,
-     "email": "dr.suchona.saha@gmail.com",
-     "password": "admin"
-   }
+      "id":-1,
+      "name": "test6",
+      "age": 24,
+      "address": "test6 addrs",
+      "phone": "01911234580",
+      "gender": "male",
+      "image": "12123213.jpg",
+      "user_id": 12
+}
    ```
    
    <h3 id="post-auth-detail">POST /authenticate</h3>
@@ -244,8 +249,8 @@ An online banking system backend through email like bKash
    **REQUEST Example in Documentations**
    ```json
    {
-     "email": "dr.suchona.saha@gmail.com",
-     "password": "admin"
+     "email": "test6@gmail.com",
+     "password": "0testPass@"
    }
    ```
    
@@ -259,7 +264,7 @@ An online banking system backend through email like bKash
    
    ## :wave: Contributing
    
-   <a href="https://github.com/the-sudipta/mobile-banking-management-system/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
+   <a href="https://github.com/the-sudipta/tele-care-central/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
    
    Contributions are always welcome!
    
@@ -270,7 +275,7 @@ An online banking system backend through email like bKash
    
    This project is used by the following individuals:
    
-   - Tripti Ahmed
+   - Anonnya Barua
    
    
    ## :warning: License
@@ -281,7 +286,7 @@ An online banking system backend through email like bKash
    
    Sudipta Kumar Das - - engineer.sudipta.kumar.das@gmail.com
    
-   Project Link: [https://github.com/the-sudipta/mobile-banking-management-system](https://github.com/the-sudipta/mobile-banking-management-system)
+   Project Link: [https://github.com/the-sudipta/tele-care-central](https://github.com/the-sudipta/tele-care-central)
    
    ## :gem: Acknowledgement
    - [PostgreSQL Database](https://www.postgresql.org/download/)
