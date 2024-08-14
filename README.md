@@ -3,7 +3,7 @@
 <a href="#">
 <img src="https://raw.githubusercontent.com/the-sudipta/tele-care-central/main/DOCUMENTATIONS/images/Tele%20Care%20Central%20Logo.png" alt="Logo" width="400" height="100">
 </a>
-<h3 align="center">Mobile Banking Management System</h3>
+<h3 align="center">Tele Care Central</h3>
 
 
 
@@ -20,7 +20,7 @@
 
 
 <p align="center">
-An online banking system backend through email like bKash
+A tele-medicine site backennd
 <br/>
 <p align="center">
   <a href="https://github.com/the-sudipta/tele-care-central/raw/main/DOCUMENTATIONS/Project_Manual_tele-care-central.pdf" download>📱 Explore the docs »</a>
