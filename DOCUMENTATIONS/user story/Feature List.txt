@@ -1,0 +1,17 @@
+Signup
+View own profile
+Edit own details
+Book Appointment
+View Upcoming Appointment
+Update Appointment Details
+View Medical Lab Record List
+Update single medical lab report
+Upload profile picture
+Create Billing or Payment
+Create Feedback
+Auto Generated OTP
+Send OTP through Email
+Login
+Forget Password
+Create new password
+Logout
