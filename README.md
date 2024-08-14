@@ -30,7 +30,7 @@ A tele-medicine site backennd
 
 ## :star2: About The Project
 
-   ![Product Video Gif](https://github.com/the-sudipta/tele-care-central/blob/main/DOCUMENTATIONS/images/Mobile%20Banking%20Management%20System%20Backend%20Demo.gif?raw=true)
+   ![Product Video Gif](https://github.com/the-sudipta/tele-care-central/blob/main/DOCUMENTATIONS/images/Tele%20Care%20Central%20Backend%20Demo.gif?raw=true)
 
 <p style="text-align: justify;">
 The Hospital Management System project is designed to facilitate seamless healthcare operations online by 
